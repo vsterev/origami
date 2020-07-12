@@ -1,17 +1,16 @@
 import React from 'react'
 import './styles.css'
 import Link from '../link'
-import logo from '../../images/white-origami-bird.png'
 
-export default function Header() {
-    return (
-        <nav className="Navigation">
+const Footer = () => {
+    return(
+        <footer className="Footer">
             <ul>
-                <Link to="/"><img id="logo" src={logo} alt="logo" /></Link>
                 <Link to="/home">Going to 1</Link>
                 <Link to="/">Going to 2</Link>
                 <Link to="/new">Going to 3</Link>
             </ul>
-        </nav>
+        </footer>
     )
 }
+export default Footer

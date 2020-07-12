@@ -3,7 +3,7 @@ import './styles.css'
 import Link from '../link'
 import logo from '../../images/white-origami-bird.png'
 
-export default function Header() {
+export default Header() {
     return (
         <nav className="Navigation">
             <ul>

@@ -1,17 +1,16 @@
 import React from 'react'
-import './styles.css'
+import './style.css'
 import Link from '../link'
-import logo from '../../images/white-origami-bird.png'
-
-export default function Header() {
+const Menu = () => {
     return (
-        <nav className="Navigation">
+        <aside className="Aside">
             <ul>
-                <Link to="/"><img id="logo" src={logo} alt="logo" /></Link>
                 <Link to="/home">Going to 1</Link>
                 <Link to="/">Going to 2</Link>
                 <Link to="/new">Going to 3</Link>
             </ul>
-        </nav>
+        </aside>
     )
+
 }
+export default Menu
