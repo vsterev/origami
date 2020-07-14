@@ -1,12 +1,12 @@
 import React from 'react'
-import './styles.css'
+import styles from './main.module.css'
 import Menu from '../menu'
 import Posts from '../posts'
 const Main = () => {
     return (
-        <div className="Container">
+        <div className={styles.Container}>
             <Menu />
-            <main className="Main">
+            <main className={styles.Main}>
                 <h1>Sooooome Heading</h1>
                 <Posts />
             </main>

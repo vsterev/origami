@@ -1,9 +1,10 @@
 import React from 'react'
-import './styles.css'
-function Link({ children, to }) {
+import styles from './link.module.css'
+function Link({ children, to, type }) {
     return (
-        <li className="listItem">
-            <a href={to}>{children}</a>
+        // <li className={styles.listItem}>
+        <li className={styles[`${type}ListItem`]}>
+            <a href={to}>{children }</a>
         </li>
     )
 }

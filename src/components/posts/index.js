@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css'
+import styles from './posts.module.css'
 import Post from '../post'
 class Posts extends React.Component {
     state = {
@@ -26,7 +26,7 @@ class Posts extends React.Component {
     render() {
         console.log(this.state.origamis)
         return (
-            <div className="Posts">
+            <div className={styles.Posts}>
                 {this.renderOrigami()}
             </div>
         )
