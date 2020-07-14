@@ -1,8 +1,7 @@
 import React from 'react'
 import styles from './header.module.css'
-import Link from '../link'
+import Link from '../shared/link'
 import logo from '../../images/white-origami-bird.png'
-
 export default function Header() {
     return (
         <nav className={styles.Navigation}>

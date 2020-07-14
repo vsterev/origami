@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './footer.module.css'
-import Link from '../link'
+import Link from '../shared/link'
 import logo from '../../images/blue-origami-bird-flipped.png'
 
 const Footer = () => {

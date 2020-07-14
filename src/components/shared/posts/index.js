@@ -9,6 +9,7 @@ class Posts extends React.Component {
     //     const origamis = await fetch('http://localhost:9999/api/origami').then(res => res.json())
     //     this.setState({ origamis })
     // }
+
     getPosts() {
         fetch('http://localhost:9999/api/origami')
             .then(res => res.json())
@@ -26,9 +27,13 @@ class Posts extends React.Component {
     render() {
         console.log(this.state.origamis)
         return (
-            <div className={styles.Posts}>
-                {this.renderOrigami()}
+            <div>
+                <h1>{this.props.title}</h1>
+                <div className={styles.Posts}>
+                    {this.renderOrigami()}
+                </div>
             </div>
+
         )
     }
 }

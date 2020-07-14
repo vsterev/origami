@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './menu.module.css'
-import Link from '../link'
+import Link from '../shared/link'
 const Menu = () => {
     return (
         <aside className={styles.Aside}>
