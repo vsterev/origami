@@ -1,10 +1,10 @@
 import React from 'react'
-import './styles.css'
+import styles from './post.module.css'
 const Post = ({id,description,author}) => {
     return (
-        <div className="Post" id={id}>
+        <div className={styles.Post} id={id}>
             <img src="blue-origami-bird.png" alt="origami" />
-            <p className="description">
+            <p className={styles.description}>
                 {description}
             </p>
             <div>
