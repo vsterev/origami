@@ -7,9 +7,12 @@ export default function Header() {
         <nav className={styles.Navigation}>
             <ul>
                 <Link to="/" type="nav"><img id="logo" src={logo} alt="logo" /></Link>
-                <Link to="/home" type="nav">Going to 1</Link>
-                <Link to="/" type="nav">Going to 2</Link>
-                <Link to="/new" type="nav">Going to 3</Link>
+                <Link to="/home" type="nav">Home</Link>
+                <Link to="/" type="nav">Posts</Link>
+                <Link to="/create" type="nav">Create Post</Link>
+                <Link to="/login" type="nav">Login</Link>
+                <Link to="/register" type="nav">Register</Link>
+                <Link to="/profile" type="nav">Profile</Link>
             </ul>
         </nav>
     )

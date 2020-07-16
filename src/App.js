@@ -10,7 +10,7 @@ function App() {
     <div className={styles.App}>
       <BrowserRouter>
         <Header />
-        <Main title="vasko"/>
+        <Main />
         <Footer />
       </BrowserRouter>
     </div>
