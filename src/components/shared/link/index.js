@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from './link.module.css'
+import { NavLink as ReactRouterDomLink} from 'react-router-dom'
+
 function Link({ children, to, type }) {
     return (
         // <li className={styles.listItem}>
         <li className={styles[`${type}ListItem`]}>
-            <a href={to}>{children }</a>
+            <ReactRouterDomLink to={to} >{children }</ReactRouterDomLink>
         </li>
     )
 }
