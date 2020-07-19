@@ -33,7 +33,7 @@ class Login extends React.Component {
                     </div>
                     <div className={styles['form-control']}>
                         <label>Password</label>
-                        <input type="password" />
+                        <input type="email" />
                     </div>
                     <div className={styles['form-control']}>
                         <button type="submit">Login</button>

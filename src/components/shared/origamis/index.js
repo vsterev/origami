@@ -16,14 +16,14 @@ class Origami extends React.Component {
     }
     renderOrigami(){
         return this.state.origamis.map(
-            (origam,id) => <Post key={id} description={origam.description} author={origam.author.username} />
+            (origam,id) => <Post key={id} id={id} description={origam.description} author={origam.author.username} />
         )
     }
     render() {
         return (
-            <div>
+            <React.Fragment>
                 {this.renderOrigami()}
-            </div>
+            </React.Fragment>
         )
     }
 }
