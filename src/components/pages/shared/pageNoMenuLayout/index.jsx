@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../../header'
-import Footer from '../../footer'
-import styles from '../../main/main.module.css'
+import Header from '../../../header'
+import Footer from '../../../footer'
+import styles from '../../../main/main.module.css'
 // import Publications from '../../shared/posts'
 const HomePage = (props) => {
     return (

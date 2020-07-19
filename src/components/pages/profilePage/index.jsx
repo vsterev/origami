@@ -1,5 +1,5 @@
 import React from 'react'
-import PageLayout from '../pageLayout'
+import PageLayout from '../shared/pageLayout'
 import Profile from '../../profile'
 export default function ProfilePage() {
     return (
