@@ -1,5 +1,5 @@
 import React from 'react'
-import PageNoMenuLayout from '../pageNoMenuLayout'
+import PageNoMenuLayout from '../shared/pageNoMenuLayout'
 import Error from '../../error'
 export default function errorPage() {
     return (
